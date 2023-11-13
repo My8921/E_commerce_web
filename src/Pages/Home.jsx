@@ -1,5 +1,5 @@
 import Navbar from "../Feature/Navbar/Navbar";
-import ProductList from "../Feature/product-list/ProductList";
+import ProductList from "../Feature/product-list/Components/ProductList";
 
 
 

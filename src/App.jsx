@@ -8,6 +8,10 @@ import { Route,  Routes} from "react-router-dom";
 import Login from './Feature/auth/componenets/Login'
 import SignUpPage from './Pages/SignupPage'
 
+import CartPage from './Pages/Cart'
+import Checkout from './Pages/Checkout'
+import ProductDetail from './Feature/product-list/Components/ProductDetails'
+
 
 
 function App() {
@@ -25,6 +29,9 @@ function App() {
   <Route path='/'  element={<Home /> } />
   <Route path='/Login' inde element={<Login /> }/> 
   <Route path='/SignUp' element={  <SignUpPage /> } /> 
+  <Route path='/Cart' element={  <CartPage></CartPage> } /> 
+  <Route path='/Checkout' element={  <Checkout></Checkout> } /> 
+  <Route path='/ProductDetail' element={  <ProductDetail></ProductDetail>} /> 
   <Route path='*' element={<div>It and error</div>}/>
 
 </Routes>
