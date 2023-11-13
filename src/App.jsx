@@ -11,6 +11,7 @@ import SignUpPage from './Pages/SignupPage'
 import CartPage from './Pages/Cart'
 import Checkout from './Pages/Checkout'
 import ProductDetail from './Feature/product-list/Components/ProductDetails'
+import P_DetailPage from './Pages/ProductDetail'
 
 
 
@@ -31,7 +32,7 @@ function App() {
   <Route path='/SignUp' element={  <SignUpPage /> } /> 
   <Route path='/Cart' element={  <CartPage></CartPage> } /> 
   <Route path='/Checkout' element={  <Checkout></Checkout> } /> 
-  <Route path='/ProductDetail' element={  <ProductDetail></ProductDetail>} /> 
+  <Route path='/ProductDetail' element={ <P_DetailPage></P_DetailPage> } /> 
   <Route path='*' element={<div>It and error</div>}/>
 
 </Routes>
